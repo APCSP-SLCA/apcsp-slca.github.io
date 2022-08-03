@@ -1,4 +1,4 @@
-# Unit 0: Information  and Hardware Layers
+# Unit 0: Information and Hardware Layers
 
 * Computer science is fundamentally problem-solving, and programming alone or (more likely) collaboratively is one way to do that.
 * Collaboration is an important aspect of problem solving. It can take on many forms, such as communication or consultation. Collaboration helps us see diverse perspectives, which can help us avoid bias in the development of computing innovations.

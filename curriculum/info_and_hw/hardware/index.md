@@ -1,4 +1,4 @@
-# Hardware
+# Unit 0: Hardware Layer
 
 Computers tend to use binary because it's easier to represent two states in the physical world:
 
@@ -163,7 +163,7 @@ If you have heard that your computer has "Intel Inside," it has an Intel process
   - Limited range
     - This is ok as it is used for you to connect to your own device
 
-<!-- ## Operating System (OS)
+## Operating System (OS)
 
 - Software that ensures all devices work and can intercommunicate
 - MacOS and Windows are popular OS
@@ -180,16 +180,16 @@ If you have heard that your computer has "Intel Inside," it has an Intel process
 - When an OS doesn't recognize a device, perhaps because it's too new, you can download new device drives from the device manufacturer
   - Teaches Window, MacOS, or Linux about that new hardware
   - Future-proofing structure
-- It's this intersection of hardware and software that makes computers powerful! -->
+- It's this intersection of hardware and software that makes computers powerful!
 
 # Reference Sheets
 
-* [Computers and Computing](https://ap.cs50.school/assets/pdfs/computers_and_computing.pdf)
-* [CPU and SoC](https://ap.cs50.school/assets/pdfs/cpu_and_soc.pdf)
-* [Cybersecurity](https://ap.cs50.school/assets/pdfs/cybersecurity.pdf)
-* [How Computers Work](https://ap.cs50.school/assets/pdfs/how_computers_work.pdf)
-* [Memory](https://ap.cs50.school/assets/pdfs/memory.pdf)
-* [Routers](https://ap.cs50.school/assets/pdfs/routers.pdf)
-* [Transistors and Logic](https://ap.cs50.school/assets/pdfs/transistors_and_logic.pdf)
-* [Trust Models](https://ap.cs50.school/assets/pdfs/trust_models.pdf)
-* [Virtual and Augmented Reality](https://ap.cs50.school/assets/pdfs/virtual_and_augmented_reality.pdf)
+    * [Computers and Computing](https://ap.cs50.school/assets/pdfs/computers_and_computing.pdf)
+    * [CPU and SoC](https://ap.cs50.school/assets/pdfs/cpu_and_soc.pdf)
+    * [Cybersecurity](https://ap.cs50.school/assets/pdfs/cybersecurity.pdf)
+    * [How Computers Work](https://ap.cs50.school/assets/pdfs/how_computers_work.pdf)
+    * [Memory](https://ap.cs50.school/assets/pdfs/memory.pdf)
+    * [Routers](https://ap.cs50.school/assets/pdfs/routers.pdf)
+    * [Transistors and Logic](https://ap.cs50.school/assets/pdfs/transistors_and_logic.pdf)
+    * [Trust Models](https://ap.cs50.school/assets/pdfs/trust_models.pdf)
+    * [Virtual and Augmented Reality](https://ap.cs50.school/assets/pdfs/virtual_and_augmented_reality.pdf)
