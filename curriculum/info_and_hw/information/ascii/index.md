@@ -1,1 +1,0 @@
-# Text Data and ASCII

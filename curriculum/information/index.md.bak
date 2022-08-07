@@ -1,0 +1,6 @@
+# Unit 0: Information and Hardware Layers
+
+<div class="list-group">
+    <a href="{{ '/curriculum/info_and_hw/information' | relative_url}}" class="list-group-item list-group-item-action">Information Layer</a>
+    <a href="{{ '/curriculum/info_and_hw/hardware' | relative_url}}" class="list-group-item list-group-item-action disabled">Hardware Layer</a>
+</div>
