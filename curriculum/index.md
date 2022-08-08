@@ -1,5 +1,11 @@
 # AP CSP Course Notes
 
+<style>
+    .list-group-item:not(.disabled) {
+        font-weight: bold;
+    }
+</style>
+
 <div class="list-group">
     <a href="information" class="list-group-item list-group-item-action">Information Layer</a>
     <a href="hardware" class="list-group-item list-group-item-action disabled">Hardware Layer</a>
