@@ -62,9 +62,9 @@ Students will accrue points as follows:
 
 We will be using various online resources as well as "unplugged" activities.  There will be many online projects assigned that will involve data analysis, manipulating digital information and computer programming projects. These will be assessed as either test or quiz grades depending on the level of effort required.
 
-During the Spring semester, **students are required to take the AP exam** for each AP class in which they are enrolled.  This exam will be administered at SLCA on *TBD*. Students are registered for the exams by SLCA, but are required to pay for each exam taken. The cost is $100 per exam. Students for whom this presents a financial hardship should contact Ms. Julie Swanson. Students who do not take AP exams will have their AP course reclassified as an honors course on their transcript.  AP exams are not factored into the second semester grade because The College Board grades them and scores are not available until July.
+During the Spring semester, **students are required to take the AP exam** for each AP class in which they are enrolled.  This exam will be administered at SLCA on **May 8, 2023**. Students are registered for the exams by SLCA, but are required to pay for each exam taken. The cost is $100 per exam. Students for whom this presents a financial hardship should contact Ms. Julie Swanson. Students who do not take AP exams will have their AP course reclassified as an honors course on their transcript.  AP exams are not factored into the second semester grade because The College Board grades them and scores are not available until July.
 
-Additionally, **AP Computer Science Principles requires the submission of a Create Performance Task (Create PT) along with responses to prompts regarding the task.**  The Create PT is due on *TBD*.  Students will be provided with detailed requirements and instructions for creating and submitting the performance task and related free response questions.  The Create PT accounts for 40% of the final AP score.  The College Board requires that students be given 12 hours of in-class time to complete the task. Students may work on the tasks at home in addition to the time allotted in class. The 2 hour AP exam on *TBD* will account for 60% of the students’ final AP grade.
+Additionally, **AP Computer Science Principles requires the submission of a Create Performance Task (Create PT) along with responses to prompts regarding the task.**  The Create PT is due on **May 1, 2023**.  Students will be provided with detailed requirements and instructions for creating and submitting the performance task and related free response questions.  The Create PT accounts for 40% of the final AP score.  The College Board requires that students be given 12 hours of in-class time to complete the task. Students may work on the tasks at home in addition to the time allotted in class. The 2 hour AP exam on **May 8, 2023** will account for 60% of the students’ final AP grade.
 
 ## Attendance Policy
 
@@ -128,4 +128,4 @@ In particular, it is a misuse of MOSS to rely solely on the similarity scores. T
 
 In AP Computer Science Principles, I will be using MOSS as a tool to help enforce our academic integrity policies, and to *hopefully* reduce student tempation to violate those policies.
 
-[Download the full syllabus as a PDF]({{"/assets/pdfs/syllabus.pdf" | relative_url }})
+[Download the full syllabus as a PDF](https://github.com/APCSP-SLCA/syllabus/raw/main/syllabus.pdf)

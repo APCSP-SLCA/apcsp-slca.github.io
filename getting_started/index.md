@@ -24,6 +24,8 @@ Right-click-open the downloaded file. The package installer walks you through in
 
 After Pyzo is set up, we need to install some Python packages that we'll be using throughout the semester. Python packages will allow us to create animations and use other people's code without re-inventing the wheel multiple times over. *This is a form of collaboration!*
 
-Download, unzip, and open [`setup.py.zip`](https://github.com/APCSP-SouthLakeChristian-Academy/programming/raw/main/setup.py.zip) in Pyzo.
+Download, unzip, and open [`setup.py.zip`](https://github.com/APCSP-SLCA/Weekly-Assignments/raw/main/setup.py.zip) in Pyzo.
 
 In Pyzo, click `Run > Run file as script` or press `Shift-Command-E`. If everything went well, the program should list out all the installed packages.
+
+* [Slides](slides/slides.pdf)

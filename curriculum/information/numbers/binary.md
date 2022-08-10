@@ -57,6 +57,7 @@ $$ 2^8 = 256 $$ which is larger than 255, so $$ 2^8 $$ can't make a contribution
 0      1      ?      ?      ?      ?      ?      ?      ?
 
 ```
+
 $$ 255 - 128 = 127 $$, so we need to now find the binary representation for `127`. We keep repeating this process until we have nothing left to convert. (This is a type of *[greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm)*)
 
 ```math
@@ -156,3 +157,4 @@ How might you represent a negative number in binary?
 ## Extra Resources
 
 * [Binary Reference Sheet]({{ "/assets/pdfs/binary.pdf" | relative_url }})
+* [Slides](slides/binary.pdf)
