@@ -128,4 +128,4 @@ In particular, it is a misuse of MOSS to rely solely on the similarity scores. T
 
 In AP Computer Science Principles, I will be using MOSS as a tool to help enforce our academic integrity policies, and to *hopefully* reduce student tempation to violate those policies.
 
-[Download the full syllabus as a PDF](https://github.com/APCSP-SLCA/syllabus/raw/main/syllabus.pdf)
+[Download the full syllabus as a PDF]({{"/assets/pdfs/syllabus.pdf" | relative_url }})
