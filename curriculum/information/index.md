@@ -14,7 +14,7 @@
         </tr>
         <tr>
             <th scope="row"></th>
-            <td><a class="btn btn-link disabled" tabindex="-1" href="{{ '/curriculum/information/numbers/binary' | relative_url }}">Binary</a></td>
+            <td><a class="btn btn-link" tabindex="-1" href="{{ '/curriculum/information/numbers/binary' | relative_url }}">Binary</a></td>
         </tr>
         <tr>
             <th scope="row"></th>

@@ -155,21 +155,36 @@ $$ 2 - 3 = 2 + (-3) $$
 
 ## **Overflow/Underflow Errors**
 
-* **overflow**: occurs when the number is *too big* to be represented (wraps to the smallest number)
-* **underflow**: occurs when the number is *too small* to be represented (often wraps to the largest number)
+* **overflow**: occurs when the number is *too big* to be represented (wraps to smallest number)
+* **underflow**: occurs when the number is *too small* to be represented (wraps to the largest number)
 
-*What will happen if we want to represent `256` on an 8-bit machine?*
-*How about `257`?*
+*What will happen if we add `1` and `255` on an 8-bit machine?*
+*How about `1` and `256`?*
+
+---
+
+```text
+
+  0b11111111
++ 0b00000001
+--------------
+ 0b100000000
+
+```
+
+We started off with 2 8-bit numbers, and our result is `256`, a 9-bit number!
+
+Since the computer cannot manage 9-bit numbers, the extra bit gets chopped off.
+
+So `255 + 1 = 0`!
 
 ---
 
 ## **Rounding Errors**
 
-* machines do not have the hardware to represent infinite number of digits
-    * some fractions (e.g. $\pi$, $e$, $\cfrac{1}{3}$) cannot be represent accurately
+* machines do not have the hardware to represent an infinite number of digits
+    * some fractions (e.g. $\pi$, $e$, $\cfrac{1}{3}$) cannot be represented accurately
     * must approximate (round)
-
-
 
 ---
 
