@@ -19,6 +19,12 @@ fundamentally about *problem-solving*
 
 ---
 
+### Example: Abstract Art
+
+![art height:600px](../abstract_art.jpg)
+
+---
+
 ## Vocabulary
 
 * **Abstraction**: the process of reducing complexity by focusing on the main idea.
