@@ -154,7 +154,7 @@ function setup() {
         let modal_content = select(".modal-body", modal);
 
         modal_title.elt.innerHTML = "Task 2";
-        modal_content.elt.innerHTML = "Create a digital 5x5 image of the duck by sampling the original \"analog\" picture!";
+        modal_content.elt.innerHTML = "Create a digital 5x5 image of the duck; you must decide whether each pixel is black or white!";
         modal_content.elt.innerHTML += "<img alt=\"Duck\" src=\"tasks/duck.png\" class=\"rounded mx-auto d-block\" style=\"width: 350px; height: 350px;\">";
         isDuckVisible = true;
         drawGrid();
@@ -168,9 +168,23 @@ function setup() {
         let modal_content = select(".modal-body", modal);
 
         modal_title.elt.innerHTML = "Task 3";
-        modal_content.elt.innerHTML = "Create a digital 20x20 image of the duck by sampling the original \"analog\" picture!";
+        modal_content.elt.innerHTML = "Create a digital 20x20 image of the duck; you must decide whether each pixel is black or white!";
         modal_content.elt.innerHTML += "<img alt=\"Duck\" src=\"tasks/duck.png\" class=\"rounded mx-auto d-block\" style=\"width: 350px; height: 350px;\">";
         isDuckVisible = true;
+        drawGrid();
+    });
+
+    tasks.push((modal) => {
+        slider.value(25);
+        inp.value("");
+        updateSlider();
+        let modal_title = select(".modal-title", modal);
+        let modal_content = select(".modal-body", modal);
+
+        modal_title.elt.innerHTML = "Task 4";
+        modal_content.elt.innerHTML = "Replicate your favorite logo in black and white!";
+        // modal_content.elt.innerHTML += "<img alt=\"Duck\" src=\"tasks/duck.png\" class=\"rounded mx-auto d-block\" style=\"width: 350px; height: 350px;\">";
+        isDuckVisible = false;
         drawGrid();
     });
 
