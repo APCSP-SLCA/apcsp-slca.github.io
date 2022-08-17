@@ -126,15 +126,16 @@ function setup() {
     depthSlider = createSlider(1, MAXDEPTH, depth);
     depthSlider.parent("gui-container");
 
-    colorPicker = createColorPicker('#ed225d');
-    colorPicker.parent("gui-container");
-
     inp = createElement("textarea");
     inp.parent("gui-container");
 
     let dots = createDiv();
     dots.parent("gui-container");
     dots.style("text-align:center; position: inherit; top: 0px;");
+
+    let colorpicker = createColorPicker('#ed225d');
+    colorpicker.parent("gui-container");
+    colorpicker.style("width: 100%; margin-top: 10px;");
 
     tasks.push((modal) => {
         let modal_title = select(".modal-title", modal);
@@ -189,16 +190,13 @@ function setup() {
 
     saveButton.style("width: 50%; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); border-radius: 12px; border: none;");
     saveButton.center("horizontal");
-    sizeSlider.position(sizeLabel.width + 20, 0/*sliderLabel.height*/);
+    sizeSlider.position(max(sizeLabel.width, depthLabel.width) + 30, 0/*sliderLabel.height*/);
     sizeSlider.style("width", "250px");
 
     depthLabel.position(0, sizeLabel.height);
-    depthSlider.position(depthLabel.width + 20, sizeSlider.height);
+    depthSlider.position(max(sizeLabel.width, depthLabel.width) + 30, sizeSlider.height);
     depthSlider.style("width", "250px");
-
-    colorPicker.style("width: 100%; height: 1%;");
-    colorPicker.position(0, sizeSlider.height + depthSlider.height + 5);
-    inp.style("resize: none; width: 100%; height: 300px; margin-top: 70px;");
+    inp.style("resize: none; width: 100%; height: 300px; margin-top: 45px;");
 
     // events for DOM elements
     saveButton.mousePressed(() => {
