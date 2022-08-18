@@ -20,13 +20,13 @@
             <th scope="row"></th>
             <td><a class="btn btn-link" tabindex="-1" href="{{ '/curriculum/information/ascii' | relative_url }}">ASCII</a></td>
         </tr>
-        <tr>
+        <!-- <tr>
             <th scope="row"></th>
             <td><a class="btn btn-link disabled" tabindex="-1" href="{{ '/curriculum/unit_0/numbers/hexadecimal' | relative_url }}">Hexadecimal</a></td>
-        </tr>
+        </tr> -->
         <tr>
             <th scope="row"></th>
-            <td><a class="btn btn-link disabled" tabindex="-1" href="{{ '/curriculum/info_and_hw/information/images' | relative_url }}">Images</a></td>
+            <td><a class="btn btn-link" tabindex="-1" href="{{ '/curriculum/information/images' | relative_url }}">Images</a></td>
         </tr>
         <tr>
             <th scope="row"></th>
