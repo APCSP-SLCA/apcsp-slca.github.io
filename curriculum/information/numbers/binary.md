@@ -78,6 +78,10 @@ In groups, convert the following decimal numbers to binary. Show your work!
 * `121`
 * `56`
 
+We can also predict the minimum and maximum numbers an $$n$$-bit, non-negative machine can represent. The minimum number is `0b00...00`, while the maximum number is `0b11..11` (where we have $$n$$ `0`s and $$n$$ `1`s). The equivalent minimum value in decimal is $$0$$, while the decimal maximum value is $$2^n - 1$$.
+
+For example, an 8-bit machine can represent numbers from `0` to `255`!
+
 ## Binary Arithmetic
 
 Binary arithmetic is oftentimes easier than decimal arithmetic because we are only dealing with 2 symbols!
@@ -120,16 +124,9 @@ What happened? We added the 1s place, and carried over a `1`. Then we added the 
 
 Notice how we started with 2-bit numbers and ended up with a 3-bit number. This is totally fine if we are just talking about adding numbers together: we do `9 + 1 = 10` all the time.
 
-<button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#group-overflow" aria-expanded="false" aria-controls="group-overflow">
-What happens if our computer only has the hardware to deal with 2-bit numbers?
-<!-- How would we write <code class="language-plaintext highlighter-rouge">255</code> in binary? -->
-</button>
+***What happens if our computer only has the hardware to deal with 2-bit numbers?***
 
-<div class="collapse" id="group-overflow">
-    <div>
-        In this situation, it is physically impossible for the computer to represent that leading <span markdown="1">`1`</span>. Therefore, the <span markdown="1">`1`</span> gets chopped off and our number has <span markdown="1">**overflowed**</span>. We are then left with <span markdown="1">`0b11 + 0b01 = 0b00`</span>. Huh. That's weird. Computers have limitations, and one of their limitations is the <span markdown="1">*range of numbers they can manipulate*</span>. In the case of our 2-bit computer, we'd only be able to deal with the numbers <span markdown="1">`0`</span>, <span markdown="1">`1`</span>, <span markdown="1">`2`</span>, and <span markdown="1">`3`</span>. Luckily, most computers you interact with are 64-bit, so there're plenty of numbers to go around!
-    </div>
-</div>
+In this situation, it is physically impossible for the computer to represent that leading `1`. Therefore, the `1` gets chopped off and our number has **overflowed**. We are then left with `0b11 + 0b01 = 0b00`. Huh. That's weird. Computers have limitations, and one of their limitations is the *range of numbers they can manipulate*. In the case of our 2-bit computer, we'd only be able to deal with the numbers `0`, `1`, `2`, and `3`. Luckily, most computers you interact with are 64-bit, so there're plenty of numbers to go around!
 
 <!-- ### Left Shifts
 
@@ -141,20 +138,20 @@ You may have asked the question "We've seen addition, but what about subtraction
 
 So far, we've only been able to represent non-negative numbers i.e. 0 and positive numbers.
 
-<button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#group-signed" aria-expanded="false" aria-controls="group-signed">
-How might you represent a negative number in binary?
-<!-- How would we write <code class="language-plaintext highlighter-rouge">255</code> in binary? -->
-</button>
+***How might you represent a negative number in binary?***
 
-<div class="collapse" id="group-signed">
-    <div>
-        Remember, humans attach meaning to the symbols that computers manipulate. One valid way to indicate a negative binary number is to let one bit be the "negative sign".<br>
-        For example, if <span markdown="1">`0b010`</span> is <span markdown="1">`2`</span>, under this system, <span markdown="1">`0b110`</span> would indicate <span markdown="1">`-2`</span>. An issue with this is that now we have to deal with <span markdown="1">`+0`</span> and <span markdown="1">`-0`</span>!<br>
-        Another way to represent negative numbers is with <a href="https://www.allaboutcircuits.com/technical-articles/twos-complement-representation-theory-and-examples/">two's complement</a>. Super interesting and widely used representation, but way beyond the scope of this class.
-    </div>
-</div>
+Remember, humans attach meaning to the symbols that computers manipulate. One valid way to indicate a negative binary number is to let one bit be the "negative sign".
+
+For example, if `0b010` is `2`, under this system, `0b110` would indicate `-2`. An issue with this is that now we have to deal with `+0` and `-0` (`0b000` and `0b100`, respectively)!
+Another way to represent negative numbers is with [two's complement](https://www.allaboutcircuits.com/technical-articles/twos-complement-representation-theory-and-examples/). Super interesting and widely used representation, but way beyond the scope of this class.
+
+Earlier we learned that the types of machines we looked at so far only represent numbers ranging from $$0$$ to $$2^n - 1$$. So what if we asked this computer to represent `-1`? The computer does not know what `-1` is and will **underflow** to the largest number. For example, an 8-bit machine will think that `-1` and `255` are the same value, `0b11111111`.
+
+## Why Learn Binary?
+
+We spent all this time learning the basics of the binary system because computers only understand `1`s and `0`s. Luckily, for the most part, we won't be using binary when we start programming. Python is a nice programming language and understands that humans like to deal in the decimal system. So whenever we tell Python (via code) that we want to use the number `2`, the Python interpreter wraps the binary number `0b10` in an *object* called an *integer* (or `int`, for short). That way, we can focus on the value in a system we are comfortable, and the details of how the computer works is hidden from us. **Numbers is python are therefore abstractions.** But in order to fully appreciate how the computer works and how data gets represented, we must know binary!
 
 ## Extra Resources
 
-* [Binary Reference Sheet]({{ "/assets/pdfs/binary.pdf" | relative_url }})
-* [Slides](slides/binary.pdf)
+* <a href="/assets/pdfs/binary.pdf" target="_blank">Binary Reference Sheet</a>
+* <a href="https://docs.google.com/viewer?url=https://github.com/APCSP-SLCA/slides/raw/main/binary/slides.pdf" target="_blank">Slides</a>

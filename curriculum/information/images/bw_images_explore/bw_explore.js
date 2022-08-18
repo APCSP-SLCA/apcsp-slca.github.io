@@ -80,7 +80,7 @@ function updateGrid(value) {
 }
 
 function preload() {
-    duck = loadImage("tasks/duck.png");
+    duck = loadImage("../../../../assets/images/duck.png");
 }
 
 function setup() {
