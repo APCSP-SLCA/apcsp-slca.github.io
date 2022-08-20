@@ -12,4 +12,6 @@ Another real-life example of an abstraction is driving. Beyond a few basic rules
 
 In programming we'll see how variables, functions, and modules help make our lives easier and less complex by hiding how code statements work.
 
+## Extra Resources
+
 * <a href="https://docs.google.com/viewer?url=https://github.com/APCSP-SLCA/slides/raw/main/abstractions/slides.pdf" target="_blank">Slides</a>

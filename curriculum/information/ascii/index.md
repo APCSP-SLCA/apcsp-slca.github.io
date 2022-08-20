@@ -42,4 +42,6 @@ Computers do not interpret data; they just consume binary numbers. Humans interp
 
 For example, `0b10010001101001` can be interpreted as *either* "Hi" or `9321`, depending if we are in Microsoft Word or the Calculator App.
 
+## Extra Resources
+
 * <a href="https://docs.google.com/viewer?url=https://github.com/APCSP-SLCA/slides/raw/main/ascii/slides.pdf" target="_blank">Slides</a>
