@@ -12,6 +12,8 @@ You might have received images via email that look blurry or distorted. This is 
 
 ![compressed width:200px;](compression_sequence.jpg)
 
+The percentages on each image sequence refer to how much data has been preserved.
+
 Lossy compression is beneficial when transmitting data. Emailing a compressed image is a lot faster than emailing a non-compressed image.
 
 **Lossless compression**, on the other hand, doesn't lose information. Typically, data is restructured or represented in a different way that allows for a smaller file size. A computer would be able to "undo" a lossless compression and get the original data.
@@ -39,6 +41,16 @@ One way of solving this problem is by inserting 0 `0`s into the sequence of 8 `1
     <div style="font-size: 108px; padding-left: 35%; display: flex; align-items: center;">&rarr;</div>
     <div><img src="brick_compressed.avif"></div>
 </div>
+
+### Run Length Encoding and Images
+
+We can use run length encoding to compress images. Let's look at black and white images.
+
+<img src="bw_compressed.png" style="width: 200px;">
+
+Using decimal numbers this would compress down to `8 1 2 2 2 1 0 8 0 8 1 6 1 2 4 2 3 2 3 8`.
+
+We've just seen one type of lossless compression, and just one way to implement run length encoding!
 
 ## Quantifying Compression
 

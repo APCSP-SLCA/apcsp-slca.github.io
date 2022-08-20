@@ -88,6 +88,6 @@ or `582`, depending if we are in Photoshop or the Calculator App.
 
 ## Extra Resources
 
-* [BW Images Explore]({{ "/curriculum/info_and_hw/information/images/bw_images_explore" | relative_url}})
-* [Color Images Explore]({{ "/curriculum/info_and_hw/information/images/color_images_explore" | relative_url}})
+* [BW Images Explore]({{ "/curriculum/information/images/bw_images_explore" | relative_url}})
+* [Color Images Explore]({{ "/curriculum/information/images/color_images_explore" | relative_url}})
 * <a href="https://docs.google.com/viewer?url=https://github.com/APCSP-SLCA/slides/raw/main/images/slides.pdf" target="_blank">Slides</a>
