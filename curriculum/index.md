@@ -8,7 +8,7 @@
 
 <div class="list-group">
     <a href="information" class="list-group-item list-group-item-action">Information Layer</a>
-    <a href="hardware" class="list-group-item list-group-item-action disabled">Hardware Layer</a>
+    <a href="hardware" class="list-group-item list-group-item-action">Hardware Layer</a>
     <a href="programming" class="list-group-item list-group-item-action disabled">Programming Layer</a>
     <a href="graphics" class="list-group-item list-group-item-action disabled">Applications Layer &#8212; Graphics</a>
     <a href="algorithms" class="list-group-item list-group-item-action disabled">Applications Layer &#8212; Algorithms & Simulations</a>

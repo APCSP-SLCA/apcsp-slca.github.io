@@ -1,14 +1,5 @@
 # Hardware Layer
 
-Computers tend to use binary because it's easier to represent two states in the physical world:
-
-* 0 is "off"
-* 1 is "on"
-    * Light bulbs just need electricity to turn on or off
-    * Electricity is sufficient to turn a switch on or off
-
-Computers also have billions of switches called **transitors**! Using these transistors we can store values, store data, compute, and do everything we can with computers.
-
 ## CPU
 
 If you have heard that your computer has "Intel Inside," it has an Intel processor in it
@@ -26,8 +17,6 @@ If you have heard that your computer has "Intel Inside," it has an Intel process
 * CPUs now can have multiple cores
 * Cores are the devices inside the CPU that can preform mathematical operations, load info from memory, save info to memory, etc.
     * The more cores, the more tasks a CPU can do at once
-* CPUs now also support hyper-threading
-    * a single core will present itself as multiple cores to a computer's operating system
 * Systems on a Chip (SoaC) are when a CPU and more are all interconnected at once rather than attached to a motherboard
     * Popular in phones, tables, and game consoles
     * Raspberry Pi
@@ -124,7 +113,6 @@ If you have heard that your computer has "Intel Inside," it has an Intel process
     - Memory at the bottom is more expensive
     - Disk is important for the long-term storage
     - RAM is important as it stores programs you use simultaneously
-    - L3, L2, L1 cache are on the motherboard
 - As an analogy for memory, picture a candy store
   - A customer approaches the counter and requests candy
   - The shop owner then leaves the counter to grab the candy before returning moments later
@@ -132,8 +120,6 @@ If you have heard that your computer has "Intel Inside," it has an Intel process
       - Better to have a cache of memory
   - Instead, the shop owner leaves the counter to ready a cache of candy before the customers arrive
   - When a customer comes, the candy can be distributed quickly
-    - Cache memory similarly helps the CPU in this manner
-- We can see sizes of cache looking at computer specs like before
 
 ## Display Connectors
 
@@ -163,33 +149,13 @@ If you have heard that your computer has "Intel Inside," it has an Intel process
   - Limited range
     - This is ok as it is used for you to connect to your own device
 
-## Operating System (OS)
+## Extra Resources
 
-- Software that ensures all devices work and can intercommunicate
-- MacOS and Windows are popular OS
-- Can be installed by the user, but is typically done so by a manufacturer
-  - Installed on HDD or SDD so that it exists persistently without power
-- When you hit power on your computer, the OS is loaded into RAM
-- Gives you the graphical interface that you see
-- Knows how to:
-  - Talk to your keyboard and mouse
-  - Display info on the screen
-  - Move things around in memory
-- This is all thanks to device drivers installed with the OS
-  - Special software designed to talk to certain model of printer, camera, scanner, etc.
-- When an OS doesn't recognize a device, perhaps because it's too new, you can download new device drives from the device manufacturer
-  - Teaches Window, MacOS, or Linux about that new hardware
-  - Future-proofing structure
-- It's this intersection of hardware and software that makes computers powerful!
+* <a href="https://docs.google.com/viewer?url=https://github.com/APCSP-SLCA/slides/raw/main/hardware/slides.pdf" target="_blank">Slides</a>
 
-# Reference Sheets
 
-    * [Computers and Computing](https://ap.cs50.school/assets/pdfs/computers_and_computing.pdf)
-    * [CPU and SoC](https://ap.cs50.school/assets/pdfs/cpu_and_soc.pdf)
-    * [Cybersecurity](https://ap.cs50.school/assets/pdfs/cybersecurity.pdf)
-    * [How Computers Work](https://ap.cs50.school/assets/pdfs/how_computers_work.pdf)
-    * [Memory](https://ap.cs50.school/assets/pdfs/memory.pdf)
-    * [Routers](https://ap.cs50.school/assets/pdfs/routers.pdf)
-    * [Transistors and Logic](https://ap.cs50.school/assets/pdfs/transistors_and_logic.pdf)
-    * [Trust Models](https://ap.cs50.school/assets/pdfs/trust_models.pdf)
-    * [Virtual and Augmented Reality](https://ap.cs50.school/assets/pdfs/virtual_and_augmented_reality.pdf)
+
+<!-- * [Computers and Computing](https://ap.cs50.school/assets/pdfs/computers_and_computing.pdf)
+* [CPU and SoC](https://ap.cs50.school/assets/pdfs/cpu_and_soc.pdf)
+* [How Computers Work](https://ap.cs50.school/assets/pdfs/how_computers_work.pdf)
+* [Memory](https://ap.cs50.school/assets/pdfs/memory.pdf) -->
