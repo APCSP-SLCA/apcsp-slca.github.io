@@ -30,7 +30,7 @@
         </tr>
         <tr>
             <th scope="row"></th>
-            <td><a class="btn btn-link disabled" tabindex="-1" href="{{ '/curriculum/information/analog_and_digital' | relative_url }}">Analog vs Digital Information</a></td>
+            <td><a class="btn btn-link" tabindex="-1" href="{{ '/curriculum/information/analog_and_digital' | relative_url }}">Analog vs Digital Information</a></td>
         </tr>
     </tbody>
 </table>
