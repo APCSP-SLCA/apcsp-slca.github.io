@@ -14,7 +14,7 @@ Instead of this trivial mapping, however, we often use American Standard Code fo
 
 As we can see below, the 7-bit ASCII allows for 128 different characters:
 
-![ascii](ascii_chart.jpg)
+![ascii]({{ '/assets/images/ascii_chart.jpg' | relative_url }})
 
 So when we hit the Tab key, the computer really sees the number `0b0001001`, or `9`. When we hit the `A` key, the computer really sees `0b1000001`.
 
@@ -22,7 +22,7 @@ Therefore, the binary sequence `0b10010001101001` can be interpreseted as the me
 
 ASCII is a great system and widely used; however, it maps numbers to only characters from the Latin alphabet. What are all the people writing in Cyrillic or Arabic scripts supposed to do?
 
-![cyrillic](cyrillic.png)
+![cyrillic]({{ '/assets/images/cyrillic.png' | relative_url }})
 
 ## Unicode
 
@@ -34,7 +34,7 @@ Unicode can represent characters from a variety of alphabets as well as emojis.
 
 To represent emojis, Unicode maps *descriptions* to numbers. For example, the description "face with medical mask" is mapped to `0b11110000100111111001100010110111`. Whenever you text your friend an emoji, what you're actually sending is the string of bits. Your friend's phone receives this binary number, looks up the description "face with medical mask", and then displays the image associated with that description:
 
-<img src="medical_mask.png" style="width:400px;">
+<img src="{{ '/assets/images/medical_mask.png' | relative_url }}" style="width:400px;">
 
 ## **Key Takeaway**
 

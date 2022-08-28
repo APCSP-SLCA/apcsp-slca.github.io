@@ -10,7 +10,7 @@ However, my computer says that it only takes up 54,630 bytes -- significantly sm
 
 You might have received images via email that look blurry or distorted. This is due to lossy compression.
 
-![compressed width:200px;](compression_sequence.jpg)
+![compressed width:200px;]({{ '/assets/images/compression_sequence.jpg' | relative_url }})
 
 The percentages on each image sequence refer to how much data has been preserved.
 
@@ -37,16 +37,16 @@ Using run length encoding, the compressed data is `2 3 8` in decimal. Using the 
 One way of solving this problem is by inserting 0 `0`s into the sequence of 8 `1`s. Let's walk through this from the beginning. We see 2 `1`s, 3 `0`s, *7* `1`s, *0* `0`s, and 1 `1`. Therefore, the compressed data in decimal is `2 3 7 0 1`, or `0b010011111000001`. Notice how because we added those "fake" `0`s, our compression didn't really compress -- in fact we have more bits than what we started with. Compression works well when we have a large number of bits, and doesn't work so well with smaller data. In particular, run length encoding works best if there are long sequences of `1`s or `0`s with few alternations.
 
 <div style="position: relative; display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 0px;">
-    <div><img src="brick.avif"></div>
+    <div><img src="{{ '/assets/images/brick.avif' | relative_url }}"></div>
     <div style="font-size: 108px; padding-left: 35%; display: flex; align-items: center;">&rarr;</div>
-    <div><img src="brick_compressed.avif"></div>
+    <div><img src="{{ '/assets/images/brick_compressed.avif' | relative_url }}"></div>
 </div>
 
 ### Run Length Encoding and Images
 
 We can use run length encoding to compress images. Let's look at black and white images.
 
-<img src="bw_compressed.png" style="width: 200px;">
+<img src="{{ '/assets/images/bw_compressed.png' | relative_url }}" style="width: 200px;">
 
 Using decimal numbers this would compress down to `8 1 2 2 2 1 0 8 0 8 1 6 1 2 4 2 3 2 3 8`.
 

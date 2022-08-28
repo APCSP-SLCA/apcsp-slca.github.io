@@ -5,14 +5,14 @@ So far we've disccused **digital information**, information that is represented 
 However, because computers are limited by the number of bits they can handle, anytime we convert an analog signal to a digital signal, we inevitably throw some information away. As we dedicate more and more bits to a digital representation, we get better approximations of the analog data, but can never fully and accurately an analog signal on a machine.
 
 <div style="position: relative; display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 0px;">
-    <div><img src="duck_5x5.png"></div>
-    <div><img src="duck_50x50.png"></div>
-    <div><img src="duck.png"></div>
+    <div><img src="{{ '/assets/images/duck_5x5.png' | relative_url }}"></div>
+    <div><img src="{{ '/assets/images/duck_50x50.png' | relative_url }}"></div>
+    <div><img src="{{ '/assets/images/duck.png' | relative_url }}"></div>
 </div><br>
 
 If we graph analog data across time, we get an analog signal:
 
-<img src="simple.png" class="mx-auto d-block" style="width: 750px;">
+<img src="{{ '/assets/images/simple.png' | relative_url }}" class="mx-auto d-block" style="width: 750px;">
 
 ## Converting from Analog to Digital
 
@@ -29,11 +29,11 @@ In order to convert an analog signal to a digital signal:
 
 Let's "digitize" the analog signal from above. I'll choose to take a sample every half second (sample frequency is 2 Hz). For each sample, we must decide if the *amplitude* (distance from 0) of the data point is closer to `1` or `0`:
 
-<img src="lollipop_simple.png" class="mx-auto d-block" style="width: 750px;">
+<img src="{{ '/assets/images/lollipop_simple.png' | relative_url }}" class="mx-auto d-block" style="width: 750px;">
 
 Notice that the computer only "sees" what occurs at each of the recorded samples. In between samples, it knows nothing and will assume that the previous reocrded sample is still valid:
 
-<img src="square_simple.png" class="mx-auto d-block" style="width: 750px;">
+<img src="{{ '/assets/images/square_simple.png' | relative_url }}" class="mx-auto d-block" style="width: 750px;">
 
 So, to represent the digital signal as a binary sequence, the computer might store `0b0101010101010` to a file, where each bit is held for half a second. Again, the more sample you take, the more accurate your approximation will be. Notice that we use only one bit to store a sample: we must decide if the sample is closer to `1` or `0`. If our analog signal were a sound wave, for example, a `1` might represent "play at the loudest volume", while a `0` might represent "play nothing".
 
@@ -41,11 +41,11 @@ But what happens if we have a banger of a song, and want to hear all the nuances
 
 Previously, we used a bit depth of 1. For the next analog signal, let's use a bit depth of 2 (we'll use the same sample frequency of 2 Hz):
 
-<img src="complex.png" class="mx-auto d-block" style="width: 750px;">
+<img src="{{ '/assets/images/complex.png' | relative_url }}" class="mx-auto d-block" style="width: 750px;">
 
-<img src="lollipop_complex.png" class="mx-auto d-block" style="width: 750px;">
+<img src="{{ '/assets/images/lollipop_complex.png' | relative_url }}" class="mx-auto d-block" style="width: 750px;">
 
-<img src="square_complex.png" class="mx-auto d-block" style="width: 750px;">
+<img src="{{ '/assets/images/square_complex.png' | relative_url }}" class="mx-auto d-block" style="width: 750px;">
 
 For this example, we had four "volume" levels to choose from: `0`, `1`, `2`, and `3` -- represented by the 2-bit numbers `0b00`, `0b01`, `0b10`, `0b11`, respectively. However, sometimes our analog signal sat at, for example, a "volume" of 2.5. I decided that 2.5 was closer to `3` than it was to `2`, so I rounded up. This *rounding error* occurs because the computer does not have enough bits to represent every type of fractional value. In binary, this digital image would be `0b00 11 00 10 00 10 01 11 00 10 00 10 01`, where each sample is played for half a second.
 
@@ -67,7 +67,7 @@ Analog signals don't just come in the form of sound. Light is a type of analog s
 
 GIF (Graphics Interchange Format) is a lower quality, 8-bit per pixel image format that can be animated:
 
-<img src="elmo.gif" class="mx-auto d-block" style="width: 500px">
+<img src="{{ '/assets/images/elmo.gif' | relative_url }}" class="mx-auto d-block" style="width: 500px">
 
 JPEG is a 24-bit "truecolor" image format that uses lossy compression, while PNG uses 24-bits as well as lossless compression.
 
@@ -85,3 +85,7 @@ An audio file format will store the raw binary as well as information about the 
     * black and white, or color
 
 Metadata is useful if we want to organize files by creation date, or if we wanted to extract files that contain the letter "A" in their file names, etc.
+
+## Extra Resources
+
+* <a href="https://docs.google.com/viewer?url=https://github.com/APCSP-SLCA/slides/raw/main/analog_and_digital/slides.pdf" target="_blank">Slides</a>

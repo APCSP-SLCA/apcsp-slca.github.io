@@ -4,7 +4,7 @@
 
 If you have heard that your computer has "Intel Inside," it has an Intel processor in it
 
-![CPU](cpu.png)
+![CPU]({{ '/assets/images/cpu.png' | relative_url }})
 
 * The backside of the processor has pins that connect into the motherboard
 * The motherboard is a circuit board made of silicon
@@ -21,13 +21,13 @@ If you have heard that your computer has "Intel Inside," it has an Intel process
     * Popular in phones, tables, and game consoles
     * Raspberry Pi
 
-![raspberry pi](pi.png)
+![raspberry pi]({{ '/assets/images/pi.png' | relative_url }})
 
 ## RAM (Random Access Memory)
 
 - Circuit board with chips that slides into a slot on the motherboard
 
-  ![ram](ram.png)
+  ![ram]({{ '/assets/images/ram.png' | relative_url }})
   - The chips store data
     - Only stores data when the power is on
   - Files and programs are loaded onto these chips when ran
@@ -35,7 +35,7 @@ If you have heard that your computer has "Intel Inside," it has an Intel process
 - You can check your RAM and other specs:
   - Windows Task Manager
 
-    ![windows task manager](windows.png)
+    ![windows task manager]({{ '/assets/images/windows.png' | relative_url }})
     - CPU chart shows when peak usage occurs
     - GHz is the number of operations a CPU can perform per second (in billions)
       - 1.94 GHz = 1.94 billion operations per second
@@ -43,19 +43,19 @@ If you have heard that your computer has "Intel Inside," it has an Intel process
       - Each core will do two things at once as if 4 cores exist
   - Mac System Profiler
 
-    ![mac](mac.png)
+    ![mac]({{ '/assets/images/mac.png' | relative_url }})
 
 ## Hard Drives
 
 - When you turn a computer off, you need a place to store data
   - A hard disk drive (HDD) stores this information
 
-    ![hard drive exterior](hddout.png)
+    ![hard drive exterior]({{ '/assets/images/hddout.png' | relative_url }})
   - RAM may store 1 GB, 2 GB, 4 GB, through 16 GB or so
   - HDD stores 256 GB, 1024 GB (AKA terabyte or TB), 2 TB
   - Inside a HDD, metal platters physically spin around
 
-    ![hard drive interior](hddinside.png)
+    ![hard drive interior]({{ '/assets/images/hddinside.png' | relative_url }})
 
       - Data is stored on these disks
       - The reading heads move back and forth reading data from the device
@@ -79,13 +79,13 @@ If you have heard that your computer has "Intel Inside," it has an Intel process
 
 - Solid state disk (SSD)
 
-  ![solid state drive exterior](ssdout.png)
+  ![solid state drive exterior]({{ '/assets/images/sddout.png' | relative_url }})
   - Smaller (3.5 inch width for HDD vs 2.5 inch width for SSD)
     - Still fits where old HDDs are
   - No moving particles
   - Inside, it looks a lot like RAM
 
-    ![solid state drive interior](ssdinside.png)
+    ![solid state drive interior]({{ '/assets/images/sddinside.png' | relative_url }})
   - Much faster than HDD
     - Programs/files load and save more quickly
   - SSD theoretically don't last as long as HDD
@@ -106,7 +106,7 @@ If you have heard that your computer has "Intel Inside," it has an Intel process
 
 - There is a tradeoff between space, money, and speed of data transfer
 
-  ![memory heirarchy](memory_heirarchy.png)
+  ![memory heirarchy]({{ '/assets/images/memory_heirarchy.png' | relative_url }})
 
     - Theoretically, the CPU never has to wait for data to crunch
     - There is a tiny amount of memory (bytes) called registers where numbers are stored for operations.
@@ -123,7 +123,7 @@ If you have heard that your computer has "Intel Inside," it has an Intel process
 
 ## Display Connectors
 
-![display](display.png)
+![display]({{ '/assets/images/display.png' | relative_url }})
 
 - These sockets all connect to monitors or displays
 - Mini DisplayPort are used form monitors
@@ -132,7 +132,7 @@ If you have heard that your computer has "Intel Inside," it has an Intel process
 
 ## USB (Universal Serial Bus)
 
-![usb](usb.png)
+![usb]({{ '/assets/images/usb.png' | relative_url }})
 - Can plug in a whole range of peripheral devices including printers, keyboards, mice, scanners, etc.
 - USB-A most common
 - USB-B is often used for printers and scanners

@@ -4,7 +4,7 @@ Abstractions are an important concept in programming. An abstraction is the proc
 
 So think about the abstract art below:
 
-![Abstract Art](abstract_art.jpg)
+![Abstract Art]({{ '/assets/images/abstract_art.jpg' | relative_url }})
 
 The subject is a human face. But clearly, the artist is not concerned with drawing the face accurately. He wants us to focus instead on the feeling we get when we look at his art; the way an actual human looks is "hidden away" in favor of the main emotion.
 
